@@ -1,0 +1,22 @@
+project:
+  type: book
+
+book:
+  title: "Example Book"
+  author: "Norah Jones"
+  date: "3/12/2025"
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
