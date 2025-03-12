@@ -31,13 +31,6 @@ repos:
     -   id: ruff
         args: ['--ignore=E741', '--ignore=E731', '--fix']
 ################################################################################
-# R
--   repo: https://github.com/lorenzwalthert/precommit
-    rev: v0.4.3
-    hooks:
-    -   id: style-files
-    -   id: lintr
-################################################################################
 # Secrets
 # -   repo: https://github.com/Yelp/detect-secrets
 #     rev: v1.4.0
